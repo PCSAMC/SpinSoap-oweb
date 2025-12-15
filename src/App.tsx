@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import ProductPage from './pages/ProductPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
+import ScrollToTop from './components/scrollTop'; 
 
 const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => (
   <div className="min-h-screen flex flex-col">
@@ -18,6 +19,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => (
 const App: React.FC = () => {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
