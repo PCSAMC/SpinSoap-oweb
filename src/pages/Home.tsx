@@ -337,7 +337,7 @@ const Home: React.FC = () => {
 
                 {/* CTA Button */}
                 <a 
-                  href="/producto"
+                  href="https://spin-soap-oweb.vercel.app/producto"
                   className="group inline-flex items-center gap-3 px-8 py-4 rounded-full font-bold transition-all duration-300 hover:scale-105"
                   style={{
                     backgroundColor: COLORS.principal,
