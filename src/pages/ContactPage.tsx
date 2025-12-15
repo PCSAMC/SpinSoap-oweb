@@ -31,7 +31,7 @@ const ContactPage: React.FC = () => {
       icon: FaInstagram,
       title: 'Instagram',
       description: 'Contenido diario y tips naturales',
-      href: 'https://www.instagram.com/sipin.soap/',
+      href: 'https://www.instagram.com/spin.soap?igsh=MWtwNDUyemg2d3dudQ%3D%3D&utm_source=qr',
       handle: '@spinsoapbo',
       image: 'https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?auto=format&fit=crop&q=80&w=800'
     },
