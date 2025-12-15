@@ -205,6 +205,30 @@ const AboutPage: React.FC = () => {
         data-section="story"
         className="container mx-auto px-6 py-24"
       >
+        {/* Título sección Misión y Visión */}
+<div className="text-center mb-16 max-w-3xl mx-auto">
+  <h2
+    style={{
+      fontSize: 'clamp(2rem, 4vw, 3rem)',
+      fontWeight: '800',
+      color: COLORS.textoOscuro,
+      marginBottom: '1rem'
+    }}
+  >
+    Nuestros Valores
+  </h2>
+
+  <p
+    style={{
+      color: COLORS.textoSecundario,
+      fontSize: '1.05rem',
+      lineHeight: '1.6'
+    }}
+  >
+    Lo que nos guía como marca artesanal y natural
+  </p>
+</div>
+
         <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
           {/* Misión */}
           <div 
